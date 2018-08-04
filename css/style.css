@@ -45,6 +45,14 @@ figcaption {
   background-size: cover;
 }
 
+.light-fade {
+  background: #e26fcd; /* Old browsers */
+  background: -moz-linear-gradient(top, #e26fcd 0%, #9b60c1 24%, #6d055e 50%, #ed57b3 79%, #f78f94 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e26fcd 0%,#9b60c1 24%,#6d055e 50%,#ed57b3 79%,#f78f94 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e26fcd 0%,#9b60c1 24%,#6d055e 50%,#ed57b3 79%,#f78f94 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26fcd', endColorstr='#f78f94',GradientType=0 ); /* IE6-9 */
+}
+
 /*/////// MEDIA ////////*/
 
 img, video, audio, iframe, table, form {
