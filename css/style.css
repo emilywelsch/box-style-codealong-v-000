@@ -53,6 +53,14 @@ figcaption {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e26fcd', endColorstr='#f78f94',GradientType=0 ); /* IE6-9 */
 }
 
+.medium-fade {
+  background: #7682ed; /* Old browsers */
+  background: -moz-linear-gradient(top, #7682ed 0%, #3e7c7c 24%, #067f6f 50%, #46abbf 79%, #8ff7b7 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7682ed 0%,#3e7c7c 24%,#067f6f 50%,#46abbf 79%,#8ff7b7 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7682ed 0%,#3e7c7c 24%,#067f6f 50%,#46abbf 79%,#8ff7b7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7682ed', endColorstr='#8ff7b7',GradientType=0 ); /* IE6-9 */
+  }
+
 /*/////// MEDIA ////////*/
 
 img, video, audio, iframe, table, form {
